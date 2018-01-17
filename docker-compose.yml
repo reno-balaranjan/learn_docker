@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  docker_aspnetcore:
+    image: docker_aspnetcore
+    build:
+      context: ./Docker_ASPNETCORE
+      dockerfile: Dockerfile
